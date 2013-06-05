@@ -1,0 +1,26 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4605
+
+seoul256.vim is a low-contrast Vim color scheme based on Seoul Colors.
+Works on 256-color terminal or on GVim.
+
+Project page:
+  https://github.com/junegunn/seoul256.vim
+
+Screenshot:
+  https://raw.github.com/junegunn/seoul256.vim/screenshot/seoul256.png
+  https://raw.github.com/junegunn/seoul256.vim/screenshot/seoul256-light.png
+
+Seoul Colors:
+  http://www.seoul.go.kr/v2012/seoul/symbol/color.html
+
+Changing background brightness:
+    " seoul256:
+    "   Range:   234 (darkest) ~ 238 (lightest)
+    let g:seoul256_background = 237
+    colo seoul256
+
+    " seoul256-light:
+    "   Range:   252 (darkest) ~ 255 (lightest)
+    let g:seoul256_background = 253
+    colo seoul256-light
+
