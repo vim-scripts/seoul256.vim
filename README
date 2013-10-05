@@ -15,7 +15,7 @@ Seoul Colors:
 
 Changing background brightness:
     " seoul256:
-    "   Range:   234 (darkest) ~ 239 (lightest)
+    "   Range:   233 (darkest) ~ 239 (lightest)
     let g:seoul256_background = 237
     colo seoul256
 
