@@ -7,20 +7,20 @@ Project page:
   https://github.com/junegunn/seoul256.vim
 
 Screenshot:
-  https://raw.github.com/junegunn/seoul256.vim/screenshot/seoul256.png
-  https://raw.github.com/junegunn/seoul256.vim/screenshot/seoul256-light.png
+  https://raw.github.com/junegunn/i/master/seoul256.png
+  https://raw.github.com/junegunn/i/master/seoul256-light.png
 
 Seoul Colors:
   http://www.seoul.go.kr/v2012/seoul/symbol/color.html
 
 Changing background brightness:
-    " seoul256:
+    " Dark version:
     "   Range:   233 (darkest) ~ 239 (lightest)
     let g:seoul256_background = 237
     colo seoul256
 
-    " seoul256-light:
+    " Light version
     "   Range:   252 (darkest) ~ 256 (lightest)
     let g:seoul256_background = 253
-    colo seoul256-light
+    colo seoul256
 
